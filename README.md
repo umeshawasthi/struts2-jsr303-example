@@ -4,5 +4,12 @@ To use that example you must first install [Struts 2 JSR303 plugin](https://gith
 use the below command
 
     mvn clean source:jar install
+    
+After that you can test the integration via:
+
+    mvn jetty:run
+
+and then go to [http://localhost:8080/index.action](http://localhost:8080/index.action)
+
 
 Published under [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
