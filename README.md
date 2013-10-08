@@ -1,4 +1,4 @@
-=== Struts2 JSR303 plugin example
+###Struts2 JSR303 plugin example
 
 To use that example you must first install [Struts 2 JSR303 plugin](https://github.com/umeshawasthi/jsr303-validator-plugin),
 use the below command
