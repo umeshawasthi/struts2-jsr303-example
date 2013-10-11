@@ -15,3 +15,7 @@ and then go to [http://localhost:8080/index.action](http://localhost:8080/index.
 
 
 Published under [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/lukaszlenart/struts2-jsr303-example/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
