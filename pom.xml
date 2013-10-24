@@ -32,11 +32,11 @@
             <version>${struts2.version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>struts2-jsr303-validator-plugin</groupId>
-            <artifactId>jsr303-validator</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
+       <dependency>
+  <groupId>com.github.umeshawasthi</groupId>
+  <artifactId>struts2-jsr303-validation-plugin</artifactId>
+  <version>1.0</version>
+</dependency>
 
         <dependency>
             <groupId>org.hibernate</groupId>
