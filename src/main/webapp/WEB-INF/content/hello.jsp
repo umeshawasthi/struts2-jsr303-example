@@ -40,6 +40,12 @@
        
         <s:a href="%{url}">Cross Field Constraints</s:a>
     </li>
+    
+     <li>
+        <s:url id="url" action="customFieldConstraints"/>
+       
+        <s:a href="%{url}">Custom Field Constraints</s:a>
+    </li>
 </ul>
 
 <s:fielderror fieldName="message"/>
