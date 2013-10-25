@@ -34,6 +34,12 @@
        
         <s:a href="%{url}">Bean Validation For Model Driven Action</s:a>
     </li>
+    
+    <li>
+        <s:url id="url" action="crossFieldConstraints"/>
+       
+        <s:a href="%{url}">Cross Field Constraints</s:a>
+    </li>
 </ul>
 
 <s:fielderror fieldName="message"/>
