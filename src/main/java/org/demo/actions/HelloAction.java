@@ -1,14 +1,13 @@
 package org.demo.actions;
 
 import com.opensymphony.xwork2.ActionSupport;
-import org.hibernate.validator.constraints.NotBlank;
-
-import javax.validation.constraints.Size;
 
 /**
  * <code>Set welcome message.</code>
  */
 public class HelloAction extends ActionSupport {
+
+   private static final long serialVersionUID = 1L;
 
     public String execute() throws Exception {
         return SUCCESS;
@@ -17,13 +16,12 @@ public class HelloAction extends ActionSupport {
     /**
      * Provide default valuie for Message property.
      */
-    public static final String MESSAGE = "hello.message";
+    public static final String MESSAGE = "hello.message"; //$NON-NLS-1$
 
     /**
      * Field for Message property.
      */
-    @NotBlank
-    @Size(min = 10)
+    
     private String message;
 
     /**
@@ -32,7 +30,7 @@ public class HelloAction extends ActionSupport {
      * @return Message property
      */
     public String getMessage() {
-        return message;
+        return this.message;
     }
 
     /**

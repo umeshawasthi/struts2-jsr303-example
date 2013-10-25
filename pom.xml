@@ -109,6 +109,7 @@
                 <configuration>
                     <stopKey>CTRL+C</stopKey>
                     <stopPort>8999</stopPort>
+                    
                     <systemProperties>
                         <systemProperty>
                             <name>log4j.configuration</name>
@@ -118,6 +119,7 @@
                             <name>slf4j</name>
                             <value>false</value>
                         </systemProperty>
+                        
                     </systemProperties>
                     <scanIntervalSeconds>10</scanIntervalSeconds>
                     <webAppSourceDirectory>${basedir}/src/main/webapp/</webAppSourceDirectory>

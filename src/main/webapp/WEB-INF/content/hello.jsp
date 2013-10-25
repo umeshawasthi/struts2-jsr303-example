@@ -22,6 +22,18 @@
         </s:url>
         <s:a href="%{url}">Espanol</s:a>
     </li>
+    
+     <li>
+        <s:url id="url" action="simpleValidationAction"/>
+        
+        <s:a href="%{url}">Simple Bean Validation</s:a>
+    </li>
+    
+    <li>
+        <s:url id="url" action="modelValidationAction"/>
+       
+        <s:a href="%{url}">Bean Validation For Model Driven Action</s:a>
+    </li>
 </ul>
 
 <s:fielderror fieldName="message"/>
