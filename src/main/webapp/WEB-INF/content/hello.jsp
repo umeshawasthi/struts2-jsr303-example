@@ -46,6 +46,12 @@
        
         <s:a href="%{url}">Custom Field Constraints</s:a>
     </li>
+    
+      <li>
+        <s:url id="url" action="xmlFieldConstraintsValidation"/>
+       
+        <s:a href="%{url}">XML Field Constraints</s:a>
+    </li>
 </ul>
 
 <s:fielderror fieldName="message"/>
