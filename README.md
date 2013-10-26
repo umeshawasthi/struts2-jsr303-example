@@ -19,9 +19,8 @@ Published under [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/lukaszlenart/struts2-jsr303-example/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
-h3. Exmples
 
-Demo Application Have various exaples showing how Bean validation can be used with Struts2 using Struts2-JSR303 bean validation 
+Demo application have various exaples showing how Bean validation can be used with Struts2 using Struts2-JSR303 bean validation 
 plugin.
 
 
